@@ -8,4 +8,4 @@ import css from './styles/style.styl';
 
 import Main from './components/Main';
 
-render(<Main />, document.getElementById('root'));
+render(<Main> <p>Hello I m coming</p></Main>, document.getElementById('root'));
